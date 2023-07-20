@@ -1,16 +1,16 @@
-import { Meta, StoryObj } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react'
 import { Heading, HeadingProps } from '@ignite-ui/react'
 
 export default {
   title: 'Typography/Heading',
   component: Heading,
   args: {
-    size: 'md',
     children: 'Custom title',
+    size: 'md',
   },
   argTypes: {
     size: {
-      options: ['sm', 'md', 'lg', '2xl', '3xl', '4xl', '5xl', '6xl'],
+      options: ['sm', 'md', 'lg', '2xl', '4xl', '5xl', '6xl'],
       control: {
         type: 'inline-radio',
       },
@@ -29,7 +29,7 @@ export const CustomTag: StoryObj<HeadingProps> = {
     docs: {
       description: {
         story:
-          'Por padrão o heading sempre será um `h2`, mas podemos alterar isso com a propriedade `as`',
+          'Por padrão o heading sempre será um `h2`, mas podemos alterar isso com a propriedade `as`.',
       },
     },
   },

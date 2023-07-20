@@ -1,8 +1,8 @@
-import { Meta, StoryObj } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react'
 import { Box, MultiStep, MultiStepProps } from '@ignite-ui/react'
 
 export default {
-  title: 'Form/MultiStep',
+  title: 'Form/Multi Step',
   component: MultiStep,
   args: {
     size: 4,
@@ -13,7 +13,7 @@ export default {
       return (
         <Box
           as="label"
-          css={{ display: 'flex', flexDirection: 'column', gapp: '$2' }}
+          css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
         >
           {Story()}
         </Box>

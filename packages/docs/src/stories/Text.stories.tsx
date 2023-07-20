@@ -1,4 +1,4 @@
-import { Meta, StoryObj } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react'
 import { Text, TextProps } from '@ignite-ui/react'
 
 export default {
@@ -7,7 +7,7 @@ export default {
   args: {
     size: 'md',
     children:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat nihil sunt consequatur ipsa saepe eveniet distinctio accusantium, porro labore voluptas sequi, facilis nostrum. Cumque itaque consequatur corrupti minima. Nesciunt, tenetur.',
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro reprehenderit est veniam? Rem recusandae sint perspiciatis debitis corrupti. Deserunt neque exercitationem illo voluptatum laudantium culpa suscipit accusantium blanditiis voluptas numquam.',
   },
   argTypes: {
     size: {

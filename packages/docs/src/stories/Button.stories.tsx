@@ -1,4 +1,4 @@
-import { Meta, StoryObj } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react'
 import { Button, ButtonProps } from '@ignite-ui/react'
 import { ArrowRight } from 'phosphor-react'
 
@@ -29,9 +29,7 @@ export default {
         type: 'boolean',
       },
     },
-    onClick: {
-      action: 'click',
-    },
+    onClick: { action: 'clicked' },
   },
 } as Meta<ButtonProps>
 
@@ -61,7 +59,7 @@ export const WithIcon: StoryObj<ButtonProps> = {
   args: {
     children: (
       <>
-        Próximo Passo
+        Próximo passo
         <ArrowRight weight="bold" />
       </>
     ),
