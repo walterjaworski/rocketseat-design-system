@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/walterjaworski.png',
     alt: 'Walter Jaworski',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
