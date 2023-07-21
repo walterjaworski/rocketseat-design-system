@@ -1,0 +1,2 @@
+import{A as t}from"./index.e8a31f72.js";import"./index.7e20e847.js";import"./iframe.d317a24b.js";import"./index.d320f048.js";import"./jsx-runtime.70934f75.js";const p={title:"Data display/Avatar",component:t,args:{src:"https://github.com/walterjaworski.png",alt:"Walter Jaworski"},argTypes:{src:{control:{type:"text"}}}},c={},e={args:{src:void 0}},l=["Primary","WithFallback"];export{c as Primary,e as WithFallback,l as __namedExportsOrder,p as default};
+//# sourceMappingURL=Avatar.stories.211c6830.js.map
